@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J. DOE | Minimalist Artist</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (CDN for simple setup) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        black: '#000000',
+                        white: '#FFFFFF',
+                        darkgray: '#333333',
+                        lightgray: '#F5F5F5',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body
+    class="bg-white text-black font-sans antialiased min-h-screen flex flex-col md:flex-row selection:bg-black selection:text-white">
+
+    <!-- Navigation (Left Side on Desktop, Top on Mobile) -->
+    <header class="w-full md:w-64 p-8 md:p-12 lg:p-16 flex-shrink-0 z-50 bg-white">
+        <h1 class="text-xl md:text-2xl font-medium tracking-tight mb-8 md:mb-16">
+            <a href="#/" class="nav-link hover:opacity-50 transition-opacity">IRO</a>
+        </h1>
+        <nav>
+            <ul class="flex flex-row md:flex-col gap-6 md:gap-4 text-sm tracking-wide">
+                <li><a href="#/" class="nav-link text-darkgray hover:text-black transition-colors">Home</a></li>
+                <li><a href="#/exhibitions"
+                        class="nav-link text-darkgray hover:text-black transition-colors">Exhibitions</a></li>
+                <li><a href="#/works" class="nav-link text-darkgray hover:text-black transition-colors">Works</a></li>
+                <li><a href="#/workshops"
+                        class="nav-link text-darkgray hover:text-black transition-colors">Workshops</a></li>
+                <li><a href="#/cv" class="nav-link text-darkgray hover:text-black transition-colors">CV</a></li>
+                <li><a href="#/contact" class="nav-link text-darkgray hover:text-black transition-colors">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="app" class="flex-grow p-8 md:p-12 lg:p-16 relative w-full h-full min-h-[50vh]">
+        <!-- Dynamic content will be injected here -->
+    </main>
+
+    <!-- Modal Container for Lightbox -->
+    <div id="modal-root"
+        class="fixed inset-0 bg-white z-[100] hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-8">
+        <button id="close-modal"
+            class="absolute top-8 right-8 text-sm tracking-wide hover:opacity-50 transition-opacity">Close [X]</button>
+        <div id="modal-content" class="max-w-4xl max-h-[80vh] flex flex-col items-center">
+            <!-- Modal image and text will be injected here -->
+        </div>
+    </div>
+
+    <!-- Application Logic -->
+    <script type="module" src="src/main.js"></script>
+</body>
+
+</html>

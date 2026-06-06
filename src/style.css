@@ -1,0 +1,64 @@
+/* Custom Styles for Minimalist Portfolio */
+
+body {
+    /* Smooth scrolling and clean behavior */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Page Transition Animations */
+.page-container {
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.page-enter {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.page-exit {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+/* Hide scrollbar for a cleaner look if desired */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #cccccc;
+}
+
+/* Modal Open class for body to prevent scrolling */
+.modal-open {
+    overflow: hidden;
+}
+
+/* Accordion transition for Exhibitions */
+.accordion-content {
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out, padding 0.4s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.accordion-content.open {
+    max-height: 1000px; /* arbitrary large value */
+    opacity: 1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
