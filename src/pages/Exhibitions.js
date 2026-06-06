@@ -17,13 +17,13 @@ export default function Exhibitions() {
                             </p>
                             
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <img src="assets/Exhibition_wholeness1.jpg" alt="Exhibition View 1" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                                <img src="assets/Exhibition_wholeness2.jpg" alt="Exhibition View 2" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                                <img src="assets/Exhibition_wholeness3.jpg" alt="Exhibition View 3" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                                <img src="assets/Exhibition_wholeness4.jpg" alt="Exhibition View 4" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                                <img src="assets/Exhibition_wholeness5.jpg" alt="Exhibition View 5" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                                <img src="assets/Exhibition_wholeness6.jpg" alt="Exhibition View 6" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                                <img src="assets/Exhibition_wholeness7.jpg" alt="Exhibition View 7" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness1.jpg" alt="Exhibition View 1" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness2.jpg" alt="Exhibition View 2" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness3.jpg" alt="Exhibition View 3" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness4.jpg" alt="Exhibition View 4" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness5.jpg" alt="Exhibition View 5" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness6.jpg" alt="Exhibition View 6" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/Exhibition_wholeness7.jpg" alt="Exhibition View 7" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                             </div>
 
                         </div>
@@ -42,7 +42,7 @@ export default function Exhibitions() {
                              ‘Base Camp’는 동국대학교 동문 작가들이 다시 한자리에 모여 서로의 현재를 공유하고, 앞으로의 방향을 모색하기 위해 기획된 전시이다. 각자의 자리에서 이어온 작업들이 하나의 거점에 모여, 새로운 출발과 연결의 가능성을 만들어낸다.
 
                             </p>
-                            <img src="assets/Exhibition_basecamp.jpg" alt="Exhibition View" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                            <img src="/assets/Exhibition_basecamp.jpg" alt="Exhibition View" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                         </div>
                     </div>
                 </div>
@@ -58,8 +58,8 @@ export default function Exhibitions() {
                             <p class="mb-8 max-w-2xl text-sm md:text-base">
                              이번 전시에서 '아이'는 온전해지기 위해 스스로를 희생하고, 분노하며, 끝내 모든 것을 먹어치우는 존재가 되었다. 이를 통해 인간 내면의 온전함에 대한 욕구와 결핍그리고 생존본능을 탐구한다.
                             </p>
-                             <img src="assets/Exhibition_gaze1.jpg" alt="Exhibition View" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
-                             <img src="assets/Exhibition_gaze2.jpg" alt="Exhibition View" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                             <img src="/assets/Exhibition_gaze1.jpg" alt="Exhibition View" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                             <img src="/assets/Exhibition_gaze2.jpg" alt="Exhibition View" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                              
                         </div>
                     </div>

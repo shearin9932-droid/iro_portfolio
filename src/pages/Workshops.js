@@ -20,21 +20,21 @@ export default function Workshops() {
                             
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 
-                                <img src="assets/workshop1.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                <img src="/assets/workshop1.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                                 
-                                 <img src="assets/workshop2.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                 <img src="/assets/workshop2.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                                  
-                                 <img src="assets/workshop3.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                 <img src="/assets/workshop3.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                                  
-                                 <img src="assets/workshop4.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
+                                 <img src="/assets/workshop4.jpeg" alt="Workshop View" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video">
                                  
                                 <video class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video" controls>
-                                    <source src="assets/workshop_video1.mp4" type="video/mp4">
+                                    <source src="/assets/workshop_video1.mp4" type="video/mp4">
                                     현재 사용 중인 브라우저가 동영상 재생을 지원하지 않습니다.
                                 </video>
 
                                 <video class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500 bg-gray-50 aspect-video" controls>
-                                    <source src="assets/workshop_video2.mp4" type="video/mp4">
+                                    <source src="/assets/workshop_video2.mp4" type="video/mp4">
                                     현재 사용 중인 브라우저가 동영상 재생을 지원하지 않습니다.
                                 </video>
                                 
